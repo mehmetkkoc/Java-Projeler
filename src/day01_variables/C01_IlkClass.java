@@ -14,6 +14,7 @@ public class C01_IlkClass {
         System.out.println("fark: "+(no1-no2));
         System.out.println("carpim: " +(no1*no2));
          */
+        // ilk deneme yorumlari
 
     }
 }
