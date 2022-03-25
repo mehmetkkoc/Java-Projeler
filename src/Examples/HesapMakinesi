@@ -1,0 +1,42 @@
+package Examples;
+
+import java.util.Scanner;
+
+public class Example {
+    public static void main(String[] args) {
+
+        Scanner scan=new Scanner(System.in);
+        System.out.println("isleminiz:");
+
+        float num1= scan.nextFloat();
+        Character islem=scan.next().charAt(0);
+        float num2= scan.nextFloat();
+
+
+        if (islem.equals('+')){
+            System.out.println("Toplam : " + (num1+num2));
+        }else{
+            if (islem.equals('-')){
+                System.out.println("Fark : " + (num1-num2));
+            }else{
+                if (islem.equals('*')){
+                    System.out.println("Carpim : "+(num1*num2));
+                }else{
+                    if (islem.equals('/')){
+                        System.out.println("Bolum : "+(num1/num2));
+                    }else{
+                        System.out.println("hatali giris");
+                    }
+                }
+            }
+        }
+
+
+
+
+
+
+
+
+    }
+}
