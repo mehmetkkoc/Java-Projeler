@@ -1,7 +1,7 @@
 GIT KOMUTLARI
 ---------------
 
-https://www.youtube.com/watch?v=YEh92Grwi70
+https://
 --------Kurulum:
 1. Adim: Git uygulamasini indir ve kur (https://www.git-scm.com/)
 2. Adim: GitHub hesap ve Repository olustur
